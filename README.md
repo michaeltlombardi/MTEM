@@ -1,4 +1,4 @@
-#VPMTEM:" Vendor/Product Management Tooling Excellence Matrix
+#VPMTEM: Vendor/Product Management Tooling Excellence Matrix
 
 ##Synopsis
 The matrix is supposed to be a reference for anyone who needs to administer Windows Servers and is curious about the level of support a given vendor provides for programmatic management. The matrix scores each specific software offering of a vendor separately, as applications do not always have parity of support from a vendor. 
