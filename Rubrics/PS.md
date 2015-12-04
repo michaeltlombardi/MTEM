@@ -15,19 +15,19 @@ Where `$CriteriaGroups` are those Criteria which begin the same. If a product's 
 (3/5*10) + (5/5*10) + (100/100*25) + (0/100*25) + (4/6*25) = 57.67
 ```
 
-| Criteria                                        | Value | Weight |
-|:------------------------------------------------|:-----:|:------:|
-| Published as example snippets targeting the API | +1    | 10     |
-| Published as a Powershell snap-in               | +2    | 10     |
-| Published as a Powershell Module with DLL(s)    | +3    | 10     |
-| Published as a Powershell module                | +4    | 10     |
-| Published as a Powershell module in the Gallery | +5    | 10     |
-| Comment-Based Help for Cmdlets                  | +5    | 10     |
-| Use-Case Coverage (per percent)                 | +1    | 25     |
-| Pester Test Coverage (per percent)              | +1    | 25     |
-| Documentation Reference (Minimal)               | +2    | 25     |
-| Documentation Reference (Average)               | +4    | 25     |
-| Documentation Reference (Extensive)             | +6    | 25     |
+| Criteria                                                       | Value | Weight |
+|:---------------------------------------------------------------|:-----:|:------:|
+| [Published](#Publishing) as example snippets targeting the API | +1    | 10     |
+| Published as a Powershell snap-in                              | +2    | 10     |
+| Published as a Powershell Module with DLL(s)                   | +3    | 10     |
+| Published as a Powershell module                               | +4    | 10     |
+| Published as a Powershell module in the Gallery                | +5    | 10     |
+| [Comment-Based Help for Cmdlets](#Comment-Based-Help)          | +5    | 10     |
+| [Use-Case Coverage](#Use-Case-Coverage) (per percent)          | +1    | 25     |
+| [Pester Test Coverage](#Pester-Test-Coverage) (per percent)    | +1    | 25     |
+| [Documentation Reference]() (Minimal)                          | +2    | 25     |
+| Documentation Reference (Average)                              | +4    | 25     |
+| Documentation Reference (Extensive)                            | +6    | 25     |
 
 ##Publishing
 The ideal publishing for a Powershell module is to the [Powershell Gallery](https://www.powershellgallery.com/); with [Package Management](https://github.com/OneGet/oneget), the Powershell Gallery is the location with the most discoverability and is the easiest way for users to acquire a Powershell module.
