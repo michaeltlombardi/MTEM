@@ -2,7 +2,7 @@
 This rubric grades a particular product on how well it supports one or more APIs for management - a score of 0 indicates that the product does not have an API at all.
 
 ##TO-DO##
-If the scoring criteria is additive, simply add up the values of the relevant criteria the PowerShell module meets.
+If the scoring criteria is additive, simply add up the values of the relevant criteria the API meets.
 If the scoring is percentage based, then the values are judged using the following formula:
 
 ```Posh
