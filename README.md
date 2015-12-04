@@ -1,5 +1,4 @@
-#VPMTEM: 
-##Vendor/Product Management Tooling Excellence Matrix
+#MTEM: Management Tooling Excellence Matrix
 
 ###Synopsis
 The matrix is supposed to be a reference for anyone who needs to administer Windows Servers and is curious about the level of support a given vendor provides for programmatic management. The matrix scores each specific software offering of a vendor separately, as applications do not always have parity of support from a vendor. 
@@ -56,4 +55,4 @@ There is a separate rubric for each category. These rubrics are also living docu
 ###Contributing
 Please file an issue or submit a pull request for any updates or corrections - this makes it much easier to follow and track. Contributions are encouraged and welcome. :)
 
-For more specific guidance on contributing to the VPMTEM, please see the [Contributions](Contributions.md) document. 
+For more specific guidance on contributing to the MTEM, please see the [Contributions](Contributions.md) document. 
