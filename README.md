@@ -53,9 +53,9 @@ This matrix cannot be made accurate and relevent without community input. Please
 
 ###Rubrics
 There is a separate rubric for each category. These rubrics are also living documents that may need to be updated over time. 
-* [API Rubric](\Rubrics\API.md)
-* [PowerShell Module Rubric](\Rubrics\PS.md)
-* [Desired State Configuration Rubric](\Rubrics\DSC.md)
+* [API Rubric](Rubrics/API.md)
+* [PowerShell Module Rubric](Rubrics/PS.md)
+* [Desired State Configuration Rubric](Rubrics/DSC.md)
 
 ###Contributing
 Please file an issue or submit a pull request for any updates or corrections - this makes it much easier to follow and track. Contributions are encouraged and welcome. :)
