@@ -17,15 +17,15 @@ Where `$CriteriaGroups` are those Criteria which begin the same. If a product's 
 
 | Criteria                                                       | Value | Weight |
 |:---------------------------------------------------------------|:-----:|:------:|
-| [Published](#Publishing) as example snippets targeting the API | +1    | 10     |
+| [Published](#publishing) as example snippets targeting the API | +1    | 10     |
 | Published as a Powershell snap-in                              | +2    | 10     |
 | Published as a Powershell Module with DLL(s)                   | +3    | 10     |
 | Published as a Powershell module                               | +4    | 10     |
 | Published as a Powershell module in the Gallery                | +5    | 10     |
-| [Comment-Based Help for Cmdlets](#Comment-Based-Help)          | +5    | 10     |
-| [Use-Case Coverage](#Use-Case-Coverage) (per percent)          | +1    | 25     |
-| [Pester Test Coverage](#Pester-Test-Coverage) (per percent)    | +1    | 25     |
-| [Documentation Reference]() (Minimal)                          | +2    | 25     |
+| [Comment-Based Help for Cmdlets](#comment-based-help)          | +5    | 10     |
+| [Use-Case Coverage](#use-case-coverage) (per percent)          | +1    | 25     |
+| [Pester Test Coverage](#pester-test-coverage) (per percent)    | +1    | 25     |
+| [Documentation Reference](#documentation-reference) (Minimal)  | +2    | 25     |
 | Documentation Reference (Average)                              | +4    | 25     |
 | Documentation Reference (Extensive)                            | +6    | 25     |
 
