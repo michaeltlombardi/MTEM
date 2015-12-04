@@ -1,4 +1,5 @@
 # Powershell Module Rubric
+This rubric grades a particular product on how well it supports Powershell for management - a score of 0 indicates that the product does not support Powershell at all.
 
 ##TO-DO##
 If the scoring criteria is additive, simply add up the values of the relevant criteria the powershell module meets.
