@@ -30,7 +30,7 @@ This matrix cannot be made accurate and relevent without community input. Please
 | ElasticBox     | ElasticBox     |  -  |  -  |  -  |      -     |
 | EMC            | XtremIO        |  -  |  -  |  -  |      -     |
 | F5             | -              |  -  |  -  |  -  |      -     |
-| GlobalScape    | EFT            | 71  |  -  |  -  | 2015-12-09 |
+| GlobalScape    | EFT            | 71  |  0  |  -  | 2015-12-09 |
 | HP             | -              |  -  |  -  |  -  |      -     |
 | ITRS Group     | GeneOS         |  -  |  -  |  -  |      -     |
 | Jenkins        | Jenkins        |  -  |  -  |  -  |      -     |
