@@ -1,6 +1,6 @@
 #GlobalScape EFT: API Score Card
 
-##Overall Score: 106 / 70.7%
+##Overall Score: 106 / 71%
 Overall, GlobalScape's EFT product scores a `C-` on the API portion of its management tooling.
 
 ##Publishing (+2 / +4%)
