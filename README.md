@@ -15,40 +15,41 @@ This matrix cannot be made accurate and relevent without community input. Please
 **NOTE:** This matrix is always subject to revisions. The matrix is organized alphabetically, first by vendor, then by product.
 
 ###Matrix
-| Vendor         | Product        | API | PS  | DSC |
-|:---------------|:---------------|:---:|:---:|:---:|
-| A10 Networks   | -              |  -  |  -  |  -  |
-| Adobe          | Echosign       |  -  |  -  |  -  |
-| Amazon         | AWS            |  -  |  -  |  -  |
-| Chef           | -              |  -  |  -  |  -  |
-| Citrix         | -              |  -  |  -  |  -  |
-| Cisco          | UCS            |  -  |  -  |  -  |
-| CloudBerry     | -              |  -  |  -  |  -  |
-| DataCore       | SANsymphony-V  |  -  |  -  |  -  |
-| Dell           | -              |  -  |  -  |  -  |
-| DH2i           | DxEnterprise   |  -  |  -  |  -  |
-| ElasticBox     | ElasticBox     |  -  |  -  |  -  |
-| EMC            | XtremIO        |  -  |  -  |  -  |
-| F5             | -              |  -  |  -  |  -  |
-| HP             | -              |  -  |  -  |  -  |
-| ITRS Group     | GeneOS         |  -  |  -  |  -  |
-| Jenkins        | Jenkins        |  -  |  -  |  -  |
-| LogRhythm      | -              |  -  |  -  |  -  |
-| Microsoft      | -              |  -  |  -  |  -  |
-| Nimble Storage | Nimble OS      |  -  |  -  |  -  |
-| Octopus Deploy | Octopus Deploy |  -  |  -  |  -  |
-| Okta           | -              |  -  |  -  |  -  |
-| Puppet         | -              |  -  |  -  |  -  |
-| Pure Storage   | -              |  -  |  -  |  -  |
-| Service Now    | -              |  -  |  -  |  -  |
-| Slack          | Slack          |  -  |  -  |  -  |
-| SolarWinds     | -              |  -  |  -  |  -  |
-| Splunk         | -              |  -  |  -  |  -  |
-| StorMagic      | vSAN           |  -  |  -  |  -  |
-| Symantec       | BackUp Exec    |  -  |  -  |  -  |
-| Veeam          | -              |  -  |  -  |  -  |
-| VMWare         | -              |  -  |  -  |  -  |
-| WinSCP         | WinSCP         |  -  |  -  |  -  |
+| Vendor         | Product        | API | PS  | DSC | As Of      |
+|:---------------|:---------------|:---:|:---:|:---:|:----------:|
+| A10 Networks   | -              |  -  |  -  |  -  |      -     |
+| Adobe          | Echosign       |  -  |  -  |  -  |      -     |
+| Amazon         | AWS            |  -  |  -  |  -  |      -     |
+| Chef           | -              |  -  |  -  |  -  |      -     |
+| Citrix         | -              |  -  |  -  |  -  |      -     |
+| Cisco          | UCS            |  -  |  -  |  -  |      -     |
+| CloudBerry     | -              |  -  |  -  |  -  |      -     |
+| DataCore       | SANsymphony-V  |  -  |  -  |  -  |      -     |
+| Dell           | -              |  -  |  -  |  -  |      -     |
+| DH2i           | DxEnterprise   |  -  |  -  |  -  |      -     |
+| ElasticBox     | ElasticBox     |  -  |  -  |  -  |      -     |
+| EMC            | XtremIO        |  -  |  -  |  -  |      -     |
+| F5             | -              |  -  |  -  |  -  |      -     |
+| GlobalScape    | EFT            | 71  |  -  |  -  | 2015-12-09 |
+| HP             | -              |  -  |  -  |  -  |      -     |
+| ITRS Group     | GeneOS         |  -  |  -  |  -  |      -     |
+| Jenkins        | Jenkins        |  -  |  -  |  -  |      -     |
+| LogRhythm      | -              |  -  |  -  |  -  |      -     |
+| Microsoft      | -              |  -  |  -  |  -  |      -     |
+| Nimble Storage | Nimble OS      |  -  |  -  |  -  |      -     |
+| Octopus Deploy | Octopus Deploy |  -  |  -  |  -  |      -     |
+| Okta           | -              |  -  |  -  |  -  |      -     |
+| Puppet         | -              |  -  |  -  |  -  |      -     |
+| Pure Storage   | -              |  -  |  -  |  -  |      -     |
+| Service Now    | -              |  -  |  -  |  -  |      -     |
+| Slack          | Slack          |  -  |  -  |  -  |      -     |
+| SolarWinds     | -              |  -  |  -  |  -  |      -     |
+| Splunk         | -              |  -  |  -  |  -  |      -     |
+| StorMagic      | vSAN           |  -  |  -  |  -  |      -     |
+| Symantec       | BackUp Exec    |  -  |  -  |  -  |      -     |
+| Veeam          | -              |  -  |  -  |  -  |      -     |
+| VMWare         | -              |  -  |  -  |  -  |      -     |
+| WinSCP         | WinSCP         |  -  |  -  |  -  |      -     |
 
 
 ###Rubrics
