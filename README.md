@@ -60,4 +60,4 @@ There is a separate rubric for each category. These rubrics are also living docu
 ###Contributing
 Please file an issue or submit a pull request for any updates or corrections - this makes it much easier to follow and track. Contributions are encouraged and welcome. :)
 
-For more specific guidance on contributing to the MTEM, please see the [Contributions](Contributions.md) document. 
+For more specific guidance on contributing to the MTEM, please see the [Contributing](https://github.com/michaeltlombardi/MTEM/blob/master/Contributing.md) document. 
