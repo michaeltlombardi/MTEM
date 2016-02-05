@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="MTEM : Management Tooling Excellence Matrix">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>MTEM</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/michaeltlombardi/MTEM">View on GitHub</a>
+
+          <h1 id="project_title">MTEM</h1>
+          <h2 id="project_tagline">Management Tooling Excellence Matrix</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/michaeltlombardi/MTEM/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/michaeltlombardi/MTEM/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="mtem-management-tooling-excellence-matrix" class="anchor" href="#mtem-management-tooling-excellence-matrix" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MTEM: Management Tooling Excellence Matrix</h1>
+
+<h2>
+<a id="purpose" class="anchor" href="#purpose" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Purpose</h2>
+
+<p>When deciding what software goes into your datacenter the ability to manage that product programmatically is important -  especially when the product will be deployed in large numbers or with complex configurations. </p>
+
+<p>In the Windows world, this means the product must be manageable via PowerShell.  This matrix is meant to be a combination of an at-a-glance resource for determining how well a given product supports programmatic management and a score card for developers of those products to target for improved usability.</p>
+
+<h2>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description</h2>
+
+<p>The matrix is a reference for anyone who needs to administer Windows Servers and is curious about the level of support a given vendor provides for programmatic management. The matrix scores each specific product offering of a vendor separately, as applications do not always have parity of support from a vendor. </p>
+
+<p>The matrix scores the software on API, PowerShell Module, and Desired State Configuration based on the <a href="#rubrics">rubrics</a> on a scale of 0 to 100 where 0 indicates non-existant and 100 represents best-in-class. </p>
+
+<p>This matrix cannot be made accurate and relevent without community input. Please see the <a href="#contributing">contributing</a> section for more information.</p>
+
+<p><strong>NOTE:</strong> This matrix is always subject to revisions. The matrix is organized alphabetically, first by vendor, then by product.</p>
+
+<h3>
+<a id="matrix" class="anchor" href="#matrix" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Matrix</h3>
+
+<table>
+<thead>
+<tr>
+<th align="left">Vendor</th>
+<th align="left">Product</th>
+<th align="center">API</th>
+<th align="center">PS</th>
+<th align="center">DSC</th>
+<th align="center">As Of</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">A10 Networks</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Adobe</td>
+<td align="left">Echosign</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Amazon</td>
+<td align="left">AWS</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Chef</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Citrix</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Cisco</td>
+<td align="left">UCS</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">CloudBerry</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">DataCore</td>
+<td align="left">SANsymphony-V</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Dell</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">DH2i</td>
+<td align="left">DxEnterprise</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">ElasticBox</td>
+<td align="left">ElasticBox</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">EMC</td>
+<td align="left">XtremIO</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">F5</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">GlobalScape</td>
+<td align="left">EFT</td>
+<td align="center">71</td>
+<td align="center">0</td>
+<td align="center">-</td>
+<td align="center">2015-12-09</td>
+</tr>
+<tr>
+<td align="left">HP</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">ITRS Group</td>
+<td align="left">GeneOS</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Jenkins</td>
+<td align="left">Jenkins</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">LogRhythm</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Microsoft</td>
+<td align="left">Windows Server 2008R2</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Microsoft</td>
+<td align="left">Windows Server 2012R2</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Microsoft</td>
+<td align="left">Windows Server 2016</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Nimble Storage</td>
+<td align="left">Nimble OS</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Octopus Deploy</td>
+<td align="left">Octopus Deploy</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Okta</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Puppet</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Pure Storage</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Service Now</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Slack</td>
+<td align="left">Slack</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">SolarWinds</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Splunk</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">StorMagic</td>
+<td align="left">vSAN</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Symantec</td>
+<td align="left">BackUp Exec</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Veeam</td>
+<td align="left">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">VMWare</td>
+<td align="left">VSphere 5.5</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">VMWare</td>
+<td align="left">ESXi 5.5</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">WinSCP</td>
+<td align="left">WinSCP</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+
+<h3>
+<a id="rubrics" class="anchor" href="#rubrics" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Rubrics</h3>
+
+<p>There is a separate rubric for each category. These rubrics are also living documents that may need to be updated over time. </p>
+
+<ul>
+<li><a href="Rubrics/API.md">API Rubric</a></li>
+<li><a href="Rubrics/PS.md">PowerShell Module Rubric</a></li>
+<li><a href="Rubrics/DSC.md">Desired State Configuration Rubric</a></li>
+</ul>
+
+<h3>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributing</h3>
+
+<p>Please file an issue or submit a pull request for any updates or corrections - this makes it much easier to follow and track. Contributions are encouraged and welcome. :)</p>
+
+<p>For more specific guidance on contributing to the MTEM, please see the <a href="https://github.com/michaeltlombardi/MTEM/blob/master/Contributing.md">Contributing</a> document. </p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">MTEM maintained by <a href="https://github.com/michaeltlombardi">michaeltlombardi</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
