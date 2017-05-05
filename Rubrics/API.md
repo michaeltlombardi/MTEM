@@ -1,7 +1,8 @@
 # API Rubric
 This rubric grades a particular product on how well it supports one or more APIs for management - a score of 0 indicates that the product does not have an API at all.
 
-##TO-DO##
+##TO-DO
+
 If the scoring criteria is additive, simply add up the values of the relevant criteria the API meets.
 If the scoring is percentage based, then the values are judged using the following formula:
 
@@ -28,7 +29,7 @@ Where `$CriteriaGroups` are those Criteria which begin the same. If a product's 
 | Documentation Reference (Average)                              | +4    | 40     |
 | Documentation Reference (Extensive)                            | +6    | 40     |
 
-##Publishing
+## Publishing
 The ideal API is as a RESTful API. REST APIs are simple to use, discoverable, and easy to wrap PowerShell around.
 
 The next best API is a SOAP API. While more complex and difficult to target/wrap than a RESTful API, a SOAP API is usable and does not require client-side libraries.
@@ -39,10 +40,10 @@ The next best API is a COM API.  A COM API is less PowerShell friendly than a .N
 
 The minimal publishing method counted by this rubric is an API which can be targeted by a non .NET language only. This requires programmatic management of the product to be performed without PowerShell, but does still allow for some level of programmatic management.
 
-##Use-Case Coverage
+## Use-Case Coverage
 The purpose of an API is, presumably, to ensure that all management of a given product can be performed programmatically. If an action can be taken via the GUI, it should also be possible to perform via the API.
 
-##Documentation Reference
+## Documentation Reference
 The ideal documentation for an API...
 
 Average documentation for an API...
